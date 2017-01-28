@@ -1,0 +1,44 @@
+Git is developed by Linus Trovalds
+Its a free and an open source version control system
+It's a distributed/decentralize  version control system
+
+Go to github.com
+Open an account username and password
+Create a Repository, name it eg-Git-tutorial
+Copy the link Address
+
+Go to your machine 
+yum install git 
+OR you can dowanload the and compile from the source 
+#wget http://kernel.org/pub/software/scm/git/git-1.8.4.tar.bz2
+unzip the tar file
+cd to git
+./configure
+make 
+make install
+check the installed version #git --version
+
+setup username and email address
+git config -global user.name yourname
+git config -global user.email youremail@mailsite.com
+This will be saved in user's homedirectory on .gitconfig file
+Make a directory for testing git "eg-testgit", and Initialise it with git
+#git init
+##IT WILL CREATE A LOCAL GIT REPOSITORY ON YOUR CURRENT DIRECTORY##
+
+Now link the local Repository with your remote github.com/username/Git-tutorial
+#git remote add origin https://github.com/username/Git-tutorial.git
+
+create a testgit.doc
+once you have create a file, add it to local git repository
+#git add testgit.doc
+check the status with #git status
+commit it to the repository
+#git commit -m "add the description" 
+To upload or add it to remote repository
+#git push origin master
+Enter "username" and "password"
+
+Verification:- Go to github.com/username/Git-tutorial
+
+

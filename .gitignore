@@ -1,4 +1,8 @@
 personal.doc
+<<<<<<< HEAD
 
 
 #this line is added at local
+=======
+#this file contains the name of files to be ignored for git add or ignoring to add to repository.
+>>>>>>> 7096fcd8ebe0ffbd7046fdfe9d5b3d2ecd15a2f5
